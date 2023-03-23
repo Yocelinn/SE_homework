@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>百度一下，你就知道</title>
+        <link rel="stylesheet" href="附件\style.css">
+        <script src="附件/index.js"></script>
+    </head>
+    <body>
+        <div class="web-outer">
+            <div id="head">
+                <div id="top-left">
+                    <a href="http://news.baidu.com/" target="_blank" class="http">新闻</a>
+                    <a href="https://www.hao123.com" target="_blank" class="https">hao123</a>
+                    <a href="http://map.baidu.com" target="_blank" class="http">地图</a>
+                    <a href="http://tieba.baidu.com" target="_blank" class="http">贴吧</a>
+                    <a href="https://haokan.baidu.com/" target="_blank" class="https">视频</a>
+                    <a href="http://image.baidu.com/" target="_blank" class="http">图片</a>
+                    <a href="https://pan.baidu.com/" target="_blank" class="https">网盘</a>
+                </div>
+                <div id="top-right">
+                    <div id="top-login-btn">登录</div>
+                </div>
+            </div>
+            <div id="outer-mid">
+                <div id="mid">
+                    <div id="logo-outer">
+                        <figure id="logo" title="点击一下，了解更多"></figure>
+                    </div>
+                    <div id="search-div">
+                        <div id="search-input">
+                            <input>
+                            <div id="search-btn">百度一下</div>
+                        </div>
+                    </div>
+                    <div id="hot-div" style="overflow: hidden; margin-top: 60px;">
+                        <div id="hot-title" style="color:cornflowerblue;float: left;font-size: large;width: 230px;height: 20px;margin-top: 5px;" >
+                            <img src="img/game.png" style="height: 20px;width: 20px; vertical-align: sub ;">
+                            热榜之21371265分榜
+                        </div>
+                        <div style="color: grey;float: left;width: 100px;height: 20px;margin-top: 7px;font-size: smaller;">更多
+                            <img src="img/right.png" style="height: 12px;width: 12px;">
+                        </div>
+                    </div>
+                    <ul id="hot" style="width: 500px;margin-top: 10px;">
+                        <!-- <li style="float: left; margin-left: 0%;">
+                            <span class="hot-order hot-order-1">1</span><span cla2s="hot-content">沙伊两国在北京握手言和</span><span class="hot-tag hot">热</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%;">
+                            <span class="hot-order">4</span><span class="hot-content">TES主教练暂离赛场</span>
+                        </li> -->
+                        <!-- TODO: 完成剩余部分的代码 -->
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order hot-order-1">1</span><span class="hot-content">原神</span>
+                            <img src="img/up.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">324853</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order hot-order-2">2</span><span class="hot-content">香肠派对</span>
+                            <img src="img/up.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">168931</span>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order hot-order-3">3</span><span class="hot-content">王者荣耀</span>
+                            <img src="img/heng.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">161167</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order">4</span><span class="hot-content">我的世界</span>
+                            <img src="img/up.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">127320</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order">5</span><span class="hot-content">和平精英</span>
+                            <img src="img/heng.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">123379</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order">6</span><span class="hot-content">植物大战僵尸</span>
+                            <img src="img/up.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">88496</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order">7</span><span class="hot-content">迷你世界</span>
+                            <img src="img/up.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">79547</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order">8</span><span class="hot-content">光遇</span>
+                            <img src="img/heng.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">76194</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order">9</span><span class="hot-content">泰拉瑞亚</span>
+                            <img src="img/up.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">54000</span>
+                        </li>
+                        <li style="float: left; margin-left: 0%; width: 280px;">
+                            <span class="hot-order">10</span><span class="hot-content">绝地求生</span>
+                            <img src="img/up.png" style="width: 15px; height: 15px; float: right; margin-top:8px; margin-left: 5px;">
+                            <span style="color: grey; font-size: 12px;float: right;">49095</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer">本网页仅用于软工实验使用</div>
+            <!-- 引入核心代码，请不要修改 -->
+            <script src="code/index.js"></script>
+        </div>
+        <style>
+            #logo{
+                background-image: url('./img/logo.png');
+            }
+        </style>
+    </body>
+</html>
